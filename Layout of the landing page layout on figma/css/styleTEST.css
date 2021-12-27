@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+  }
+
+.text_descript {
+    font-size: 18px;
+    color: crimson;
+}
+
+.text_arrow {
+    color: #006DFE;
+    font-size: 16px; 
+    line-height: 24px;
+    /* font-style: normal;
+    font-weight: normal; */
+    font-weight: 600;    
+}
+
+.arrow{
+    height: 8px;
+width: 33px;
+margin-left: 25px;
+margin-bottom: 1px; 
+}
+
+
+/* ==================================================================================================== */
+
+
+
+/* ================================ PREFECTURE start =================================== */
+
+.prefecture__1 {
+    border: 3px solid #a42793;
+    overflow: auto; 
+    padding: 0px;    
+}
+
+.prefecture__1__img {
+    float: left;
+    margin: 0px 110px 0px 0px;
+    max-width: 857px;
+
+}
+
+.prefecture__descript, .prefecture__1__arrow, .prefecture__1__header {
+    margin: 80px;
+    padding-right: 20px;
+    text-align: left;
+    /* max-width: 500px; */
+}
+
+
+
+
+
+/* ================================ PREFECTURE end =================================== */
+
+
+
+
+.asidebenefits__descript { 
+    width: 150px;
+}
+
+
+
+
+
+
