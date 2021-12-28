@@ -34,16 +34,19 @@ html, body {
 
 
 /* ==================================================================================================== */
-
-/* ================================ PREFECTURE FLEX start ============== */
-
+/* ================================ PREFECTURE FLEX_1 start ============== */
+.prefecture{
+    width: 1271px;
+    height: 785px;
+}
+/*=====================*/
 .prefecture__1 {
     display: flex; 
 }
 
-.prefecture__1__header, .prefecture__descript, .prefecture__1__arrow {
-    margin: 110px 0 0 80px;
-    padding-right: 10px;
+.prefecture__1__header, .prefecture__1__descript, .prefecture__1__arrow {
+    margin: 55px 0 0 108px;
+    padding-right: 2px;
     text-align: left;
     border: none;   
     background: none;
@@ -52,16 +55,51 @@ html, body {
 } 
 
 .prefecture__1__img {
-    width: 800px;
-    height: 603px;
-    clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    width: 597px;
+    height: 354px;
+    transition: 0.4s cubic-bezier(1, -1, 0, 2);     /* треугольник */
+    clip-path: polygon(50% 5%, 0% 100%, 100% 100%); /* треугольник */
 }
 
-.prefecture__1__img:hover {
-    clip-path: none;
+.prefecture__1__img:hover { 
+    clip-path: none; 
 }
 
-/* ================================ PREFECTURE FLEX end ================ */
+/* ================================ PREFECTURE FLEX_1 end ================ */
+/* ================================ PREFECTURE FLEX_2 start ============== */
+.prefecture__2 {
+    margin-top: 55px;
+    display: flex; 
+}
+
+.prefecture__2__flex2{
+    margin-left: -50px;
+    margin-right: 97px;
+}
+
+.prefecture__2__img {
+    width: 597px;
+    height: 354px;
+    clip-path: ellipse(200px 600px at center);
+}
+
+.prefecture__2__img:hover { 
+    clip-path: none; 
+}
+/* ================================ PREFECTURE FLEX_2 end ============== */
+/* ==================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
