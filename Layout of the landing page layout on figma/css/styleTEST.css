@@ -4,10 +4,15 @@ html, body {
     margin: 0;
     padding: 0;
     overflow:auto;
-  }
+}
+
+.text_title {
+    font-size: 33px;
+    color: #102746;
+}
 
 .text_descript {
-    font-size: 18px;
+    font-size: 16px;
     color: crimson;
 }
 
@@ -22,43 +27,45 @@ html, body {
 
 .arrow{
     height: 8px;
-width: 33px;
-margin-left: 25px;
-margin-bottom: 1px; 
+    width: 33px;
+    margin-left: 25px;
+    margin-bottom: 1px; 
 }
 
 
 /* ==================================================================================================== */
 
-
-
-/* ================================ PREFECTURE start =================================== */
+/* ================================ PREFECTURE FLEX start ============== */
 
 .prefecture__1 {
-    border: 3px solid #a42793;
-    overflow: auto; 
-    padding: 0px;    
+    display: flex; 
 }
+
+.prefecture__1__header, .prefecture__descript, .prefecture__1__arrow {
+    margin: 110px 0 0 80px;
+    padding-right: 10px;
+    text-align: left;
+    border: none;   
+    background: none;
+    min-width: 250px;  
+    max-width: 500px;  
+} 
 
 .prefecture__1__img {
-    float: left;
-    margin: 0px 110px 0px 0px;
-    max-width: 857px;
-
+    width: 800px;
+    height: 603px;
+    clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 
-.prefecture__descript, .prefecture__1__arrow, .prefecture__1__header {
-    margin: 80px;
-    padding-right: 20px;
-    text-align: left;
-    /* max-width: 500px; */
+.prefecture__1__img:hover {
+    clip-path: none;
 }
 
+/* ================================ PREFECTURE FLEX end ================ */
 
 
 
 
-/* ================================ PREFECTURE end =================================== */
 
 
 
